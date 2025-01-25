@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://yy3ln2cpvj41"]
+
+[ext_resource type="PackedScene" uid="uid://dcvfc2xx0jf2f" path="res://cup.fbx" id="1_1qsui"]
+[ext_resource type="PackedScene" uid="uid://rrhc25luyskw" path="res://boba.fbx" id="2_qfd8a"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="cup" parent="." instance=ExtResource("1_1qsui")]
+transform = Transform3D(436.966, 0, 0, 0, 436.966, 0, 0, 0, 436.966, 4.48231, 1.29891, 6.92897)
+
+[node name="boba2" parent="." instance=ExtResource("2_qfd8a")]
+transform = Transform3D(250.317, 0, 0, 0, 250.317, 0, 0, 0, 250.317, -9.76197, 38.0132, 1.44359)
